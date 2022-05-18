@@ -1,0 +1,15 @@
+export const GET_ALL_PRODUCTS = "GET_ALL_PRODUCTS";
+export const GET_ALL_PRODUCTS_ERROR = "GET_ALL_PRODUCTS_ERROR";
+export const GET_PRODUCT = "GET_PRODUCT";
+export const GET_PRODUCT_ERROR = "GET_PRODUCT_ERROR";
+export const ADD_CART_PRODUCT = "ADD_CART_PRODUCT";
+export const INC = "INC";
+export const DEC = "DEC";
+export const FILTER = "FILTER";
+
+export const GET_ALL_CATEGORIES = "GET_ALL_CATEGORIES";
+export const GET_ALL_CATEGORIES_ERROR = "GET_ALL_CATEGORIES_ERROR";
+export const GET_CATEGORY_VALUE = "GET_CATEGORY_VALUE";
+
+export const START_LOADER = "START_LOADER";
+export const EXIT_LOADER = "EXIT_LOADER";

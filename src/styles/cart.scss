@@ -1,0 +1,30 @@
+.cart-screen {
+  position: relative;
+
+  &-item {
+    margin-bottom: 35px !important ;
+    border-bottom: 1px solid grey !important;
+    padding-bottom: 12px !important;
+    .description {
+      font-size: 18px !important;
+      i.icon {
+        margin: 0 !important;
+      }
+    }
+  }
+  &-bottom {
+    padding: 20px;
+    // position: fixed;
+    bottom: 0;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    @media screen and (max-width: 765px) {
+      padding: 10px 0;
+      width: unset;
+      font-size: 20px;
+      position: relative;
+    }
+  }
+}
